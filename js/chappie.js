@@ -15,7 +15,7 @@ function Chappie() {
 		// The second word is the name is a js function
 		// All the following words are function parameters
 		
-		this.answer('You : "' + sentence + '"', 'you');
+		this.answer('Vous : "' + sentence + '"', 'you');
 		
 		if(sentence.split(' ')[0] == 'command'){
 			sentence = sentence.split(' ');
